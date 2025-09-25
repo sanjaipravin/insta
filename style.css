@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #000;
+  max-width: 400px;
+  margin: auto;
+  border: 1px solid #ddd;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.logo {
+   font-family: " Billabong.", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-icons img {
+  margin-left: 15px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+/* Stories */
+.stories {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.story {
+  text-align: center;
+  margin-right: 12px;
+}
+.story img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid orange;
+  padding: 2px;
+}
+.story p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+.post {
+  margin: 15px 0;
+  
+}
+.post-header {
+  display: flex;
+  align-items: center;
+ 
+  padding: 10px;
+}
+.post .fa-solid.fa-ellipsis-vertical {
+  margin-left: auto;
+}
+.post-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.post-image {
+  width: 100%;
+}
+.post-actions {
+  display: flex;
+  
+  font-size: 22px;
+}
+.post-actions img {
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  gap: 5px;
+ 
+}
+.likes, .caption, .comments {
+  padding: 0 5px;
+  margin-top: 10px;
+ 
+}
+.save{
+    margin-left: auto;
+}
+.caption b {
+  margin-right: 5px;
+}
+.comments {
+  color: gray;
+  font-size: 14px;
+}
+
+/* Bottom Nav */
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0;
+  border-top: 1px solid #ddd;
+  position: sticky;
+  bottom: 0;
+  background: #fff;
+}
+.bottom-nav i {
+  font-size: 22px;
+}
+.bottom-nav .profile-pic {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.bottom-nav img{
+    width: 20px;
+    height: 20px;
+
+}
